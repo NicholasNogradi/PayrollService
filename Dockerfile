@@ -1,4 +1,4 @@
-FROM openjdk:18
+FROM eclipse-temurin:18-jdk
 WORKDIR /app
 COPY ./target/payroll-0.0.1-SNAPSHOT.jar /app
 EXPOSE 8080
