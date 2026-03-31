@@ -14,7 +14,7 @@ spec:
         app: payroll-service
     spec:
       containers:
-      - image: docker.io/nicholasnogradi1245/payroll-service:latest
+      - image: docker.io/nicholasnogradi1245/payroll-app:latest
         name: payroll-service
         ports:
         - containerPort: 8081
